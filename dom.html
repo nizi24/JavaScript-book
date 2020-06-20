@@ -3,11 +3,52 @@
   <head>
     <meta charset="utf-8">
     <title>JavaScript本格入門</title>
+    <link rel="stylesheet" href="css/style.css">
   </head>
   <body>
     <span id="result"></span>
     <a href="https://www.youtube.com/"></a>
     <a href="https://wings.msn.to/index.php/-/A-07/978-4-7741-8411-1/"></a>
+    <input id="btn" type="button" value="ダイアログ表示"/>
+    <input id="click" type="button" value="クリック"/>
     <script src="scripts/dom.js"></script>
+    <div id="result_html">
+      <p>設定されていません！</p>
+    </div>
+    <label><input type="checkbox" name="food" value="ラーメン"/>ラーメン</label>
+    <label><input type="checkbox" name="food" value="餃子"/>餃子</label>
+    <label><input type="checkbox" name="food" value="ハンバーグ"/>ハンバーグ</label>
+    <input id="submit" type="submit" value="送信">
+
+    <p></p>
+    <label><input type="radio" name="food2" value="ラーメン"/>ラーメン</label>
+    <label><input type="radio" name="food2" value="餃子"/>餃子</label>
+    <label><input type="radio" name="food2" value="ハンバーグ"/>ハンバーグ</label>
+    <input id="submit" type="submit" value="送信">
+
+    <form>
+      <label for="file">ファイル</label>
+      <input type="file" id="file"/>
+    </form>
+    <pre id="result_text"></pre>
+
+    <form>
+      <div>
+        <label for="name">サイト名：</label><br />
+        <input id="name" name="name" type="text" size="30" />
+      </div>
+      <div>
+        <label for="url">URL：</label><br />
+        <input id="url" name="url" type="url" size="50" />
+      </div>
+      <div>
+        <input id="btn" type="button" value="追加" />
+      </div>
+    </form>
+    <div id="list"></div>
+
+    <p id="elem">アイウエオ</p>
+    <p id="a">アイウエオ</p>
+    <p id="b">アイウエオ</p>
   </body>
 </html>
